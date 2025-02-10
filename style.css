@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-image: url('bg.png');
+    font-family: 'Poppins';
+    font-size: 100%;
+}
+
+#tarolo {
+    width: 900px;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tartalom p, h1, img {
+    padding: 2px 15px;
+}
+
+.nav {
+    float: right;
+    background-color: #c98b06;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 25px;
+    line-height: 130%;
+    border-bottom-left-radius: 16px;
+    border-bottom: 2px solid rgb(182, 115, 38);
+}
+
+.tartalom {
+    width: 750px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.nav a {
+    transition-duration: 0.4s;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+    font-size: 130%;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.menu {
+    background-color: rgb(188, 240, 188);
+    border-bottom: 3px solid black;
+    font-size: 130%;
+    padding: 10px;
+    text-align: center;
+}
+
+.vissza {
+    position: fixed;
+    padding: 3px;
+    background-color: #c98b06;
+    border-radius: 15px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.vissza a {
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+img {
+    border-radius: 25px;
+}
